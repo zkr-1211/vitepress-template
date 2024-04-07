@@ -23,7 +23,7 @@
     <f-text>🖍️ 脚手架</f-text>
     <f-text>✔️ 前端调试</f-text>
     <f-text>🚩 git使用规范</f-text>
-    <f-text>📃 部署</f-text>
+    <f-text>📃 部署等等...</f-text>
   </f-main>
 </template>
 
@@ -34,6 +34,7 @@
     box-sizing: border-box;
     padding: 40px;
     padding-bottom: 0;
+    color: #fff;
   }
 
   .f-button-default {
