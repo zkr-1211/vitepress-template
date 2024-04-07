@@ -12,7 +12,6 @@
       </f-button>
       <f-button
         round
-        href="https://github.com/Tyh2001/vitePress-demo"
         target="_blank"
         style="margin-left: 20px"
       >

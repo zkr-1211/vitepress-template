@@ -9,6 +9,7 @@ import type MarkdownIt from 'markdown-it'
  * @see app-configs https://vitepress.vuejs.org/config/app-configs.html
  */
 export default {
+  base: '/zkr-1211',
   title: 'vitepress-template',
   /**
    * 是否显示最后更新时间

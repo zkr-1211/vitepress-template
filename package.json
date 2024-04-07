@@ -1,9 +1,13 @@
 {
   "name": "vitepress-template",
+  "type": "module",
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "serve": "vitepress serve"
+    "serve": "vitepress serve",
+    "CICD:rollback": "node CICD.js rollback",
+    "build:deploy": "vitepress build && node CICD.js deploy",
+    "build:deployBackup": "vitepress build && node CICD.js deployBackup"
   },
   "license": "MIT",
   "dependencies": {
@@ -13,6 +17,7 @@
   },
   "devDependencies": {
     "fighting-design": "^0.67.1",
+    "gtxy-cicd": "^1.0.1",
     "sass": "^1.66.1",
     "vite": "^4.3.9"
   }
