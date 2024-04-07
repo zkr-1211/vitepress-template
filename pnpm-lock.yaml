@@ -16,8 +16,8 @@ devDependencies:
     specifier: ^0.67.1
     version: 0.67.1
   gtxy-cicd:
-    specifier: ^1.0.1
-    version: 1.0.1
+    specifier: ^1.0.2
+    version: 1.0.2
   sass:
     specifier: ^1.66.1
     version: 1.69.5
@@ -1130,8 +1130,8 @@ packages:
     dependencies:
       is-glob: 4.0.3
 
-  /gtxy-cicd@1.0.1:
-    resolution: {integrity: sha512-Hx58xCAcqrkBBLWv6tvphGuowzaibvVmC8CWjp948lbxniO29jI4ylyG+LjpKcUt2i3hUHZf2dZE+J3wBZQK5A==}
+  /gtxy-cicd@1.0.2:
+    resolution: {integrity: sha512-3M3M7b7ggxLcsUkR8uDGcjo+X0fIcLOLR9n+MH86hZLNMtZyh4C9Mkona8TRRbeBGVLMoCd4ACzx8aqqfIhcAA==}
     dependencies:
       chokidar: 3.5.3
       ssh2-sftp-client: 9.1.0
