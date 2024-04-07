@@ -4,24 +4,24 @@
 
 <template>
   <f-main>
-    <f-text align="center" bold block :size="25"> Hello </f-text>
+    <f-text align="center" bold block :size="45"> Hello </f-text>
 
     <f-text align="center" style="margin-top: 20px">
-      <f-button round type="primary" class="start" href="/docs/hello.html">
+      <f-button round type="primary" class="start" href="/retail/docs/hello.html">
         😊 快速开始
       </f-button>
-      <f-button
+      <!-- <f-button
         round
         target="_blank"
         style="margin-left: 20px"
       >
         Github
-      </f-button>
+      </f-button> -->
     </f-text>
 
     <f-divider margin="40px" color="#eef" />
 
-    <f-text bold block>欢迎使用</f-text>
+    <!-- <f-text bold block>欢迎使用</f-text>
     <f-text block>⚡ 欢迎使用 vitePress-template</f-text>
     <f-text block>🌲 在这里编写你的博客吧</f-text>
     <f-text block>
@@ -47,8 +47,8 @@
     <f-text>🐆 全面基于 Vite，速度够快</f-text>
     <f-text>🖍️ markdown 中直接使用 vue 组件</f-text>
     <f-text>✔️ 配置简单，上手容易</f-text>
-    <f-text>🚩 markdown 中直接使用 setup 语法糖</f-text>
-    <f-text>📃 第三方组件库支持</f-text>
+    <f-text>🚩 markdown 中直接使用 setup 语法糖</f-text> -->
+    <!-- <f-text>📃 第三方组件库支持</f-text> -->
   </f-main>
 </template>
 

@@ -9,8 +9,9 @@ import type MarkdownIt from 'markdown-it'
  * @see app-configs https://vitepress.vuejs.org/config/app-configs.html
  */
 export default {
-  base: '/zkr-1211',
-  title: 'vitepress-template',
+  // base: '/retail',
+  base: '/vitepress-template',
+  title: '场景小组前端文档',
   /**
    * 是否显示最后更新时间
    *
@@ -40,12 +41,12 @@ export default {
      *
      * @see socialLinks https://vitepress.vuejs.org/config/theme-configs#sociallinks
      */
-    socialLinks: [
-      {
-        icon: 'github',
-        link: 'https://github.com/Tyh2001/vitepress-template'
-      }
-    ],
+    // socialLinks: [
+    //   {
+    //     icon: 'github',
+    //     link: 'https://github.com/zkr-1211/vitepress-template'
+    //   }
+    // ],
     nav,
     sidebar
   },

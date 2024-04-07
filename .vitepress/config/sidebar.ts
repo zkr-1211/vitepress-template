@@ -11,7 +11,7 @@ export const sidebar = {
       link: '/docs/hello',
       items: [
         { text: 'hello', link: '/docs/hello' },
-        { text: '欢迎使用', link: '/docs/welcome' },
+        { text: '部署', link: '/docs/部署' },
         { text: '脚手架', link: '/docs/脚手架' }
       ]
     }

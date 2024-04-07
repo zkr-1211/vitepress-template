@@ -37,13 +37,13 @@ jobs:
         run: pnpm build
 
       # 创建并提交 CNAME 文件
-      - name: Create CNAME file
-        run: echo 'vitepress-template.zhangkerong.cn' > .vitepress/dist/CNAME
-      - name: Commit CNAME file
-        run: |
-          git config --local user.email '1290267206@qq.com'
-          git config --local user.name 'zkr-1211'
-          git add -f .vitepress/dist/CNAME
+      # - name: Create CNAME file
+      #   run: echo 'vitepress-template.zhangkerong.cn' > .vitepress/dist/CNAME
+      # - name: Commit CNAME file
+      #   run: |
+      #     git config --local user.email '1290267206@qq.com'
+      #     git config --local user.name 'zkr-1211'
+      #     git add -f .vitepress/dist/CNAME
 
       # 向 Codecov 报告覆盖率
       - name: Report coverage to Codecov
