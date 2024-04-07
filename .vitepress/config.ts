@@ -10,7 +10,6 @@ import type MarkdownIt from 'markdown-it'
  */
 export default {
   // base: '/retail',
-  base: '/vitepress-template',
   title: '场景小组前端文档',
   /**
    * 是否显示最后更新时间
