@@ -1,4 +1,4 @@
-name: Tyh Blog Github Actions
+name: zkr Blog Github Actions
 
 # 当 master 分支 push 代码的时候触发 workflow
 on:
@@ -38,11 +38,11 @@ jobs:
 
       # 创建并提交 CNAME 文件
       - name: Create CNAME file
-        run: echo 'vitepress-template.tianyuhao.cn' > .vitepress/dist/CNAME
+        run: echo 'vitepress-template.zhangkerong.cn' > .vitepress/dist/CNAME
       - name: Commit CNAME file
         run: |
-          git config --local user.email '1469442737@qq.com'
-          git config --local user.name 'Tyh2001'
+          git config --local user.email '1290267206@qq.com'
+          git config --local user.name 'zkr-1211'
           git add -f .vitepress/dist/CNAME
 
       # 向 Codecov 报告覆盖率
