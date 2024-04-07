@@ -4,51 +4,26 @@
 
 <template>
   <f-main>
-    <f-text align="center" bold block :size="45"> Hello </f-text>
+    <f-text align="center" bold block :size="45"> 前端开发文档 </f-text>
 
     <f-text align="center" style="margin-top: 20px">
       <f-button round type="primary" class="start" href="/docs/部署.html">
         😊 快速开始
       </f-button>
-      <!-- <f-button
-        round
-        target="_blank"
-        style="margin-left: 20px"
-      >
-        Github
-      </f-button> -->
     </f-text>
-
     <f-divider margin="40px" color="#eef" />
-
-    <!-- <f-text bold block>欢迎使用</f-text>
-    <f-text block>⚡ 欢迎使用 vitePress-template</f-text>
-    <f-text block>🌲 在这里编写你的博客吧</f-text>
-    <f-text block>
-      🔨 官方文档在
-      <f-link href="https://vitepress.vuejs.org" type="primary"> 这里 </f-link>
-    </f-text>
-
-    <f-divider margin="40px" color="#eef" />
-
-    <f-text bold block>特性</f-text>
-    <f-text>📌 开箱即用</f-text>
-    <f-text>
-      🚀 和
-      <f-link
-        href="https://github.com/FightingDesign/fighting-design"
-        type="primary"
-      >
-        fighting-design
-      </f-link>
-      完美结合
-    </f-text>
-    <f-text>💪 使用 Vue.js 最新特性开发</f-text>
-    <f-text>🐆 全面基于 Vite，速度够快</f-text>
-    <f-text>🖍️ markdown 中直接使用 vue 组件</f-text>
-    <f-text>✔️ 配置简单，上手容易</f-text>
-    <f-text>🚩 markdown 中直接使用 setup 语法糖</f-text> -->
-    <!-- <f-text>📃 第三方组件库支持</f-text> -->
+    <f-text bold block>欢迎使用</f-text>
+    <f-text block>⚡ 欢迎来到场景小组</f-text>
+    <f-text block>🌲 在这里阅读开发文档</f-text>
+    <f-divider margin="20px" color="#eef" />
+    <f-text bold block>主要内容</f-text>
+    <f-text>📌 技术栈</f-text>
+    <f-text>💪 工具库</f-text>
+    <f-text>🐆 组件库</f-text>
+    <f-text>🖍️ 脚手架</f-text>
+    <f-text>✔️ 前端调试</f-text>
+    <f-text>🚩 git使用规范</f-text>
+    <f-text>📃 部署</f-text>
   </f-main>
 </template>
 
