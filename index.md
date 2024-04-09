@@ -1,6 +1,6 @@
 ---
 layout: home
-title: vitepress-template
+title: 前端文档
 ---
 
 <Home />
